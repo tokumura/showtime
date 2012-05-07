@@ -1,0 +1,33 @@
+<form accept-charset="UTF-8" action="/movies" method="post">
+<dl>
+  <dt>
+    <label for="movie_title">Title</label>
+  </dt>
+  <dd>
+    <input type="text" name="movie[title]" id="movie_title" />
+  </dd>
+</dl>
+<dl>
+  <dt>
+    <label for="movie_release_year">Release Year</label>
+  </dt>
+  <dd>
+    <select name="movie[release]" id="movie_release_year">
+      <option value="1980">1980</option>
+      <option value="1981">1981</option>
+      <option value="1982">1982</option>
+    </select>
+  </dd>
+</dl>
+<dl>
+  <dt>
+    <label>Genre</label>
+  </dt>
+  <dd>
+    <input type="checkbox" name="Action" id="movie_genre1" value="1">Action</input>
+    <input type="checkbox" name="Comedy" id="movie_genre2" value="2">Comedy</input>
+    <input type="checkbox" name="Drama" id="movie_genre3" value="3">Drama</input>
+  </dd>
+  <input type="submit" name="" id="Save" value="Save" />
+</dl>
+</form>

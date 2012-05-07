@@ -1,0 +1,9 @@
+<%= @movies.count %> movie
+<% @movies.each do |movie|  %>
+<table>
+  <tr>
+    <td><%= movie.title %></td>
+  </tr>
+</table>
+<% end  %>
+<%= link_to 'Top', movies_path %>

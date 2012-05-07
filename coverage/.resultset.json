@@ -1,0 +1,106 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/home/tokumura/rspec_test/showtime/showtime/app/models/genre.rb": [
+        1,
+        null
+      ],
+      "/home/tokumura/rspec_test/showtime/showtime/app/models/movie.rb": [
+        1,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/home/tokumura/rspec_test/showtime/showtime/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
+      ],
+      "/home/tokumura/rspec_test/showtime/showtime/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/home/tokumura/rspec_test/showtime/showtime/app/helpers/genres_helper.rb": [
+        1,
+        null
+      ],
+      "/home/tokumura/rspec_test/showtime/showtime/app/helpers/movies_helper.rb": [
+        1,
+        null
+      ],
+      "/home/tokumura/rspec_test/showtime/showtime/app/controllers/genres_controller.rb": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        null,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/home/tokumura/rspec_test/showtime/showtime/app/controllers/movies_controller.rb": [
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1336378631
+  }
+}
