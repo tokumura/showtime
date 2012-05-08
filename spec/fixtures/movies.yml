@@ -1,0 +1,12 @@
+nobara:
+  id: 1
+  title: nobara
+  genre_id: 3
+mi4:
+  id: 2
+  title: mission impossible 4
+  genre_id: 1
+hayabusa:
+  id: 3
+  title: hayabusa
+  genre_id: 3

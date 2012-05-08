@@ -1,1 +1,22 @@
-<%= link_to 'Add Movie', new_movie_path %>
+Welcome to Top
+<br/>
+<br/>　
+
+<%= link_to 'Add Movie', new_movie_path %>　
+<%= link_to 'Add Genre', new_genre_path %><br/>
+
+<br/>
+Genres
+<br/>
+<br/>　
+<%= link_to 'All Movies', movies_path %>　
+<% @genres.each do |genre| %>
+  <%= link_to genre.name, genre_path(genre.id) %>　
+<% end %>
+<%
+=begin
+%>
+<%
+=end
+%>
+

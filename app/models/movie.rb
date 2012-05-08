@@ -1,6 +1,5 @@
 class Movie < ActiveRecord::Base
 
-
   def showtime
     "#{formatted_date} (#{formatted_time})"
   end

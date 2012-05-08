@@ -3,13 +3,23 @@
 class MoviesController < ApplicationController
 
   def index
+    @genres = Genre.all
     respond_to do |format|
       format.html # index.html.erb
       format.xml { render :xml => @movie }
     end
   end
 
+  def show
+    @movie = Movie.find(params[:id])
+    respond_to do |format|
+      format.html # show.html.erb
+      format.xml { render :xml => @movie }
+    end
+  end
+
   def new
+    @genres = Genre.all
     @movie = Movie.new
     respond_to do |format|
       format.html # new.html.erb
@@ -18,9 +28,7 @@ class MoviesController < ApplicationController
   end
 
   def create
-    puts params
-    puts params[:movie].values[0]
-    @movie= Movie.new(:title => params[:movie].values[0])
+    @movie= Movie.new(:title => params[:title], :genre_id => params[:genre_id])
     respond_to do |format|
       if @movie.save
         format.html { redirect_to(genres_path) }
@@ -30,7 +38,6 @@ class MoviesController < ApplicationController
         format.xml  { head :ok }
       end
     end
-
   end
 
 end

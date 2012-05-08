@@ -1,25 +1,40 @@
 require 'spec_helper'
 
 describe MoviesController do
+  fixtures :movies
 
-  describe Movie, "Create new named 'Caddyshack'" do 
-    before do
-      @movie = Movie.new(:title => "Caddyshack")
-      @movie.save!
-      #@movie.reload
-    end
-
-    it "movie count is 1" do
-      @movie = Movie.all
-      @movie.count.should == 1
-    end
-
-    it "title is 'Caddyshack' by find" do
-      @movie = Movie.find_by_title('Caddyshack')
-      @movie.title.should == "Caddyshack"
+  describe "Use MoviesController" do
+    it "should use MoivesController" do
+      controller.should be_an_instance_of(MoviesController)
     end
   end
-=begin
-=end
+
+  describe "GET /movies" do
+    it "should be successfiul" do
+      get 'index'
+      response.should be_success
+    end
+  end
+
+  describe "GET /movies/:id" do
+    it "should be successfiul" do
+      get 'show', :id => movies(:nobara).id
+      response.should be_success
+    end
+  end
+
+  describe "GET /movies/new" do
+    it "should be successfiul" do
+      get 'new'
+      response.should be_success
+    end
+  end
+
+  describe "POST /movies" do
+    it "should be successfiul" do
+      post 'create', {:title => 'hayabusa', :genre_id => '3'}
+      response.should redirect_to(controller: "genres", action: "index")
+    end
+  end
 end
 

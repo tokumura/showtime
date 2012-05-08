@@ -13,3 +13,4 @@ Feature: Crate movie
     Given I'm on genres_path
     When Selected "Comedy"
     Then There are movies in genre Comedy
+

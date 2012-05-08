@@ -1,4 +1,4 @@
 Given /^a genre named Comedy$/ do
-  @comedy = Genre.create!(:name => "Comedy")
+  @genre = Genre.create!(:name => "Comedy")
 end
 
