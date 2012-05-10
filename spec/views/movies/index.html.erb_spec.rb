@@ -34,4 +34,8 @@ describe "movies/index.html.erb" do
     render
     rendered.should have_content("Drama")
   end
+  it "displays the text 'Review'" do
+    render
+    rendered.should have_content("Review")
+  end
 end

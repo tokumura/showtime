@@ -1,0 +1,10 @@
+first:
+  id: 1
+  subject: first review
+  detail: it is fanny
+  movie_id: 1
+second:
+  id: 2
+  subject: second review
+  detail: not bad
+  movie_id: 1

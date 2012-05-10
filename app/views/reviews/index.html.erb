@@ -1,0 +1,27 @@
+<h1>Review List</h1>
+<%= @reviews.count %> reviews
+<br/>
+<%= link_to 'Add review', new_review_path %><br/>
+<br/>
+
+
+<table border="1">
+  <tr>
+    <th>Movie title</th>
+    <th>Subject</th>
+    <th>Detail</th>
+  </tr>
+<% @reviews.each do |review| %>
+  <tr>
+    <td><%= review.movie.title %></td>
+    <td><%= review.subject %></td>
+    <td><%= review.detail %></td>
+  </tr>
+<% end %>
+</table>
+
+<br/>
+<br/>
+
+<%= link_to 'Top', movies_path %>　
+

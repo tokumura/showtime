@@ -4,14 +4,9 @@ Feature: Showtime Descriptions
   As a movie goer
   I want to se accurate and concise showtimes
 
-  @wip
-  Scenario: Show minutes for times not ending with 00
+  Scenario: Showtime format is yyyy-MM-dd HH:mm
     Given a movie
-    When I set the showtime to "2007-10-10" and "2:15pm"
-    Then the showtime description should be "October 10, 2007 (2:15pm)"
+    When I set the showtime to "2012-05-10" and "21:00"
+    Then the showtime should be "2012-05-10 21:00"
 
-  Scenario: Hide minutes for times ending with 00
-    Given a movie
-    When I set the showtime to "2007-10-10" and "2:00pm"
-    Then the showtime description should be "October 10, 2007 (2pm)"
 

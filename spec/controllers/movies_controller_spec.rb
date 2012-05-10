@@ -32,8 +32,19 @@ describe MoviesController do
 
   describe "POST /movies" do
     it "should be successfiul" do
-      post 'create', {:title => 'hayabusa', :genre_id => '3'}
+      post 'create', {
+                      :title => 'hayabusa2',
+                      :genre_id => '3',
+                      :show_year=> '2010',
+                      :show_month=> '05',
+                      :show_day=> '10',
+                      :show_hour=> '21',
+                      :show_min=> '00'
+                     }
       response.should redirect_to(controller: "genres", action: "index")
+=begin
+=end
+      
     end
   end
 end

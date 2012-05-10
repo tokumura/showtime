@@ -8,20 +8,28 @@
       ],
       "/home/tokumura/rspec_test/showtime/showtime/app/models/movie.rb": [
         1,
+        1,
         null,
         1,
-        2,
+        3,
         null,
-        null,
-        1,
-        2,
         null,
         null,
         1,
-        2,
-        2,
+        3,
         null,
         null,
+        1,
+        null,
+        3,
+        3,
+        null,
+        null,
+        null
+      ],
+      "/home/tokumura/rspec_test/showtime/showtime/app/models/review.rb": [
+        1,
+        1,
         null
       ],
       "/home/tokumura/rspec_test/showtime/showtime/app/controllers/application_controller.rb": [
@@ -38,6 +46,10 @@
         null
       ],
       "/home/tokumura/rspec_test/showtime/showtime/app/helpers/movies_helper.rb": [
+        1,
+        null
+      ],
+      "/home/tokumura/rspec_test/showtime/showtime/app/helpers/reviews_helper.rb": [
         1,
         null
       ],
@@ -108,6 +120,26 @@
         1,
         1,
         1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        12,
+        null,
+        null,
+        1,
+        1,
+        31,
+        null,
+        null,
+        1,
+        1,
+        24,
+        null,
+        null,
+        1,
+        null,
         1,
         1,
         1,
@@ -116,6 +148,14 @@
         null,
         1,
         1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         1,
         1,
         2,
@@ -127,9 +167,28 @@
         null,
         null,
         null,
+        null,
+        null,
+        null
+      ],
+      "/home/tokumura/rspec_test/showtime/showtime/app/controllers/reviews_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        2,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
         null
       ]
     },
-    "timestamp": 1336468644
+    "timestamp": 1336640780
   }
 }

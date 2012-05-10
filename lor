@@ -1,0 +1,9 @@
+[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[33m*[0m
+
+Pending:
+[33m  genres/show.html.erb displays the text '1980'[0m
+[36m    # No reason given[0m
+[36m    # ./spec/views/genres/show.html.erb_spec.rb:18[0m
+
+Finished in 0.83294 seconds
+[33m32 examples, 0 failures, 1 pending[0m

@@ -13,10 +13,7 @@ Genres
 <% @genres.each do |genre| %>
   <%= link_to genre.name, genre_path(genre.id) %>　
 <% end %>
-<%
-=begin
-%>
-<%
-=end
-%>
+<br/>
+<br/>
+　<%= link_to 'Review', reviews_path %><br/>
 

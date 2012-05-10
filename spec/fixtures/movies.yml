@@ -2,11 +2,23 @@ nobara:
   id: 1
   title: nobara
   genre_id: 3
+  showtime_date: 2012-05-10
+  showtime_time: 2012-05-10 21:00:00.000000
 mi4:
   id: 2
   title: mission impossible 4
   genre_id: 1
+  showtime_date: 2012-05-10
+  showtime_time: 2012-05-10 21:00:00.000000
 hayabusa:
   id: 3
   title: hayabusa
   genre_id: 3
+  showtime_date: 2012-05-10
+  showtime_time: 2012-05-10 21:00:00.000000
+caddyshack:
+  id: 4
+  title: Caddyshack
+  genre_id: 2
+  showtime_date: 2012-05-10
+  showtime_time: 2012-05-10 21:00:00.000000

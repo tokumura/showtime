@@ -1,9 +1,10 @@
 <form accept-charset="UTF-8" action="/movies" method="post">
+<h1>Add Movie</h1>
 <dl>
   <dt>
     <label for="movie_title">Title</label>
   </dt>
-  <dd>
+  <dd><br/>
     <input type="text" name="title" id="movie_title" />
   </dd>
 </dl>
@@ -11,7 +12,7 @@
   <dt>
     <label for="movie_release_year">Release Year</label>
   </dt>
-  <dd>
+  <dd><br/>
     <select name="release" id="movie_release_year">
       <option value="1980">1980</option>
       <option value="1981">1981</option>
@@ -23,11 +24,52 @@
   <dt>
     <label>Genre</label>
   </dt>
-  <dd>
+  <dd><br/>
     <% @genres.each do |genre| %>
       <input type="radio" name="genre_id" id="<%= genre.name %>" value="<%= genre.id %>"><%= genre.name %></input>
     <% end %>
   </dd>
-  <input type="submit" name="" id="Save" value="Save" />
 </dl>
+
+<dl>
+  <dt>
+    <label>Show Date</label>
+  </dt>
+  <dd><br/>
+    <select name="show_year" id="movie_show_year">
+      <% @show_year_list.each do |year| %>
+        <option value="<%= year %>"><%= year %></option>
+      <% end %>
+    </select>年　
+    <select name="show_month" id="movie_show_month">
+      <% @show_month_list.each do |month| %>
+        <option value="<%= month %>"><%= month %></option>
+      <% end %>
+    </select>月　
+    <select name="show_day" id="movie_show_day">
+      <% @show_day_list.each do |day| %>
+        <option value="<%= day%>"><%= day %></option>
+      <% end %>
+    </select>日
+  </dd>
+</dl>
+
+<dl>
+  <dt>
+    <label>Show Time</label>
+  </dt>
+  <dd><br/>
+    <select name="show_hour" id="movie_show_hour">
+      <% @show_hour_list.each do |hour| %>
+        <option value="<%= hour %>"><%= hour %></option>
+      <% end %>
+    </select>時　
+    <select name="show_min" id="movie_show_min">
+      <% @show_min_list.each do |min| %>
+        <option value="<%= min %>"><%= min %></option>
+      <% end %>
+    </select>分
+  </dd>
+</dl>
+<input type="submit" name="save" id="movie_save" value="Save" />
 </form>

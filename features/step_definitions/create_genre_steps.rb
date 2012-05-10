@@ -3,7 +3,6 @@ end
 
 When /^I create a genre named "([^"]*)"$/ do |genre_name|
   visit new_genre_path
-  puts page.body
   fill_in "name", :with => genre_name
   click_button "Save"
 end

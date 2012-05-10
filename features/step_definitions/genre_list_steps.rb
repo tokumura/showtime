@@ -1,5 +1,8 @@
 Given /^I'm on genres_path$/ do
-  @movie = Movie.new(:title => 'Caddyshack', :genre_id => 2)
+  @movie = Movie.new(:title => 'Caddyshack', :genre_id => 2, 
+                     :showtime_date => '2012-05-10',
+                     :showtime_time => '2012-05-10 21:00:00.000000'
+                    )
   @movie.save!
   @genre = Genre.new(:id => 1, :name => 'Action')
   @genre.save!

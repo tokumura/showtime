@@ -1,9 +1,16 @@
 <%= @genre.movies.count %> movie
+<table border="1">
+  <tr>
+    <th>Title</th>
+    <th>Release Year</th>
+    <th>Show Time</th>
+  </tr>
 <% @genre.movies.each do |movie|  %>
-<table>
   <tr>
     <td><%= movie.title %></td>
+    <td>1980</td>
+    <td><%= movie.showtime %></td>
   </tr>
-</table>
 <% end  %>
+</table>
 <%= link_to 'Top', movies_path %>
