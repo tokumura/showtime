@@ -12,6 +12,7 @@ group :development, :test do
   gem "webrat", ">= 0.7.2"
   gem "database_cleaner", ">= 0.5.0"
   gem "simplecov", :require => false
+  gem "ci_reporter"
 end
 
 # Use unicorn as the web server

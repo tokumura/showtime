@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MoviesController GET /movies/:id" tests="1" time="0.019540482" failures="0" errors="0" skipped="0">
+  <testcase name="MoviesController GET /movies/:id should be successfiul" time="0.019275863">
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MoviesController Use MoviesController" tests="1" time="0.020270139" failures="0" errors="0" skipped="0">
+  <testcase name="MoviesController Use MoviesController should use MoivesController" time="0.019844451">
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

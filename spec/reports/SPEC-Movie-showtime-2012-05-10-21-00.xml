@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Movie showtime 2012-05-10 21:00" tests="2" time="0.013161501" failures="0" errors="0" skipped="0">
+  <testcase name="Movie showtime 2012-05-10 21:00 New movie title is 'Caddyshack'" time="0.001642336">
+  </testcase>
+  <testcase name="Movie showtime 2012-05-10 21:00 New movie showtime is '2012-05-10 21:00'" time="0.011077907">
+  </testcase>
+  <system-out>
+2000-01-01 21:00:00 UTC
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

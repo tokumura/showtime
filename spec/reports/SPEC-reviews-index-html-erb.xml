@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="reviews/index.html.erb" tests="10" time="0.068163287" failures="0" errors="0" skipped="0">
+  <testcase name="reviews/index.html.erb displays the text 'Review List'" time="0.010224748">
+  </testcase>
+  <testcase name="reviews/index.html.erb displays the text '2 reviews'" time="0.008765293">
+  </testcase>
+  <testcase name="reviews/index.html.erb displays the text 'Add review'" time="0.004921135">
+  </testcase>
+  <testcase name="reviews/index.html.erb displays the text 'Top'" time="0.005248202">
+  </testcase>
+  <testcase name="reviews/index.html.erb displays the header text in table 'Movie title'" time="0.004962867">
+  </testcase>
+  <testcase name="reviews/index.html.erb displays the header text in table 'Subject'" time="0.005238441">
+  </testcase>
+  <testcase name="reviews/index.html.erb displays the header text in table 'Detail'" time="0.008482798">
+  </testcase>
+  <testcase name="reviews/index.html.erb displays the text in table 'nobara'" time="0.005751171">
+  </testcase>
+  <testcase name="reviews/index.html.erb displays the text in table 'first review'" time="0.006284838">
+  </testcase>
+  <testcase name="reviews/index.html.erb displays the text in table 'it is fanny'" time="0.005973807">
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

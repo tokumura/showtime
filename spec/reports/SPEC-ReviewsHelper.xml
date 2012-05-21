@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ReviewsHelper" tests="1" time="0.007667338" failures="0" errors="0" skipped="1">
+  <testcase name="ReviewsHelper add some examples to (or delete) /home/tokumura/github/showtime/spec/helpers/reviews_helper_spec.rb (PENDING)" time="0.004942945">
+    <skipped/>
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

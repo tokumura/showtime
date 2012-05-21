@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="movies/index.html.erb" tests="8" time="0.194422713" failures="0" errors="0" skipped="0">
+  <testcase name="movies/index.html.erb displays the text 'Welcome to Top'" time="0.147806668">
+  </testcase>
+  <testcase name="movies/index.html.erb displays the text 'Add Movie'" time="0.005192772">
+  </testcase>
+  <testcase name="movies/index.html.erb displays the text 'Add Genre'" time="0.008340044">
+  </testcase>
+  <testcase name="movies/index.html.erb displays the text 'All Movie'" time="0.005927002">
+  </testcase>
+  <testcase name="movies/index.html.erb displays the text 'Action'" time="0.004644755">
+  </testcase>
+  <testcase name="movies/index.html.erb displays the text 'Comedy'" time="0.009351731">
+  </testcase>
+  <testcase name="movies/index.html.erb displays the text 'Drama'" time="0.005427038">
+  </testcase>
+  <testcase name="movies/index.html.erb displays the text 'Review'" time="0.005724742">
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

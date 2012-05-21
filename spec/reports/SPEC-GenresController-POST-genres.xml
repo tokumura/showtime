@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GenresController POST /genres" tests="1" time="0.024951544" failures="0" errors="0" skipped="0">
+  <testcase name="GenresController POST /genres should be successfiul" time="0.024489249">
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

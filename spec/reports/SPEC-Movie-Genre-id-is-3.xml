@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Movie Genre_id is 3" tests="1" time="0.027727251" failures="0" errors="0" skipped="0">
+  <testcase name="Movie Genre_id is 3 Genre_id should be 3 (Drama)" time="0.027353019">
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

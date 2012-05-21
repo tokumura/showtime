@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Review Review belongs to Movie" tests="1" time="0.015605209" failures="0" errors="0" skipped="0">
+  <testcase name="Review Review belongs to Movie should belogn to Movie" time="0.015149215">
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="movies/new.html.erb" tests="8" time="0.09265431" failures="0" errors="0" skipped="0">
+  <testcase name="movies/new.html.erb displays the text 'Add Movie'" time="0.012532971">
+  </testcase>
+  <testcase name="movies/new.html.erb displays the selectbox 'Release Year'" time="0.005748578">
+  </testcase>
+  <testcase name="movies/new.html.erb displays the selectbox 'Show Year'" time="0.006363743">
+  </testcase>
+  <testcase name="movies/new.html.erb displays the selectbox 'Show Month'" time="0.003920198">
+  </testcase>
+  <testcase name="movies/new.html.erb displays the selectbox 'Show Day'" time="0.004610469">
+  </testcase>
+  <testcase name="movies/new.html.erb displays the selectbox 'Show Hour'" time="0.004523861">
+  </testcase>
+  <testcase name="movies/new.html.erb displays the selectbox 'Show Minutes'" time="0.047174433">
+  </testcase>
+  <testcase name="movies/new.html.erb displays the button 'Save'" time="0.004683984">
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

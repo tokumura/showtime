@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ReviewsController GET /reviews" tests="1" time="0.026220001" failures="0" errors="0" skipped="0">
+  <testcase name="ReviewsController GET /reviews should be successfiul" time="0.02589788">
+  </testcase>
+  <system-out>
+nobara:first review
+nobara:second review
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

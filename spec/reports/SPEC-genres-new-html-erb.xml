@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="genres/new.html.erb" tests="2" time="0.014189445" failures="0" errors="0" skipped="0">
+  <testcase name="genres/new.html.erb displays the textbox" time="0.007374676">
+  </testcase>
+  <testcase name="genres/new.html.erb displays the button 'Save'" time="0.002260523">
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

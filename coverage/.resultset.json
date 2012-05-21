@@ -1,12 +1,12 @@
 {
   "RSpec": {
     "coverage": {
-      "/home/tokumura/rspec_test/showtime/showtime/app/models/genre.rb": [
+      "/home/tokumura/github/showtime/app/models/genre.rb": [
         1,
         1,
         null
       ],
-      "/home/tokumura/rspec_test/showtime/showtime/app/models/movie.rb": [
+      "/home/tokumura/github/showtime/app/models/movie.rb": [
         1,
         1,
         null,
@@ -27,33 +27,33 @@
         null,
         null
       ],
-      "/home/tokumura/rspec_test/showtime/showtime/app/models/review.rb": [
+      "/home/tokumura/github/showtime/app/models/review.rb": [
         1,
         1,
         null
       ],
-      "/home/tokumura/rspec_test/showtime/showtime/app/controllers/application_controller.rb": [
+      "/home/tokumura/github/showtime/app/controllers/application_controller.rb": [
         1,
         1,
         null
       ],
-      "/home/tokumura/rspec_test/showtime/showtime/app/helpers/application_helper.rb": [
+      "/home/tokumura/github/showtime/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/home/tokumura/rspec_test/showtime/showtime/app/helpers/genres_helper.rb": [
+      "/home/tokumura/github/showtime/app/helpers/genres_helper.rb": [
         1,
         null
       ],
-      "/home/tokumura/rspec_test/showtime/showtime/app/helpers/movies_helper.rb": [
+      "/home/tokumura/github/showtime/app/helpers/movies_helper.rb": [
         1,
         null
       ],
-      "/home/tokumura/rspec_test/showtime/showtime/app/helpers/reviews_helper.rb": [
+      "/home/tokumura/github/showtime/app/helpers/reviews_helper.rb": [
         1,
         null
       ],
-      "/home/tokumura/rspec_test/showtime/showtime/app/controllers/genres_controller.rb": [
+      "/home/tokumura/github/showtime/app/controllers/genres_controller.rb": [
         1,
         1,
         1,
@@ -96,7 +96,7 @@
         null,
         null
       ],
-      "/home/tokumura/rspec_test/showtime/showtime/app/controllers/movies_controller.rb": [
+      "/home/tokumura/github/showtime/app/controllers/movies_controller.rb": [
         null,
         null,
         1,
@@ -171,7 +171,7 @@
         null,
         null
       ],
-      "/home/tokumura/rspec_test/showtime/showtime/app/controllers/reviews_controller.rb": [
+      "/home/tokumura/github/showtime/app/controllers/reviews_controller.rb": [
         1,
         null,
         1,
@@ -189,6 +189,6 @@
         null
       ]
     },
-    "timestamp": 1336640780
+    "timestamp": 1337569811
   }
 }

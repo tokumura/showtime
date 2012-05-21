@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="genres/show.html.erb" tests="3" time="0.042379664" failures="0" errors="0" skipped="1">
+  <testcase name="genres/show.html.erb displays the text 'Caddyshack'" time="0.019923545">
+  </testcase>
+  <testcase name="genres/show.html.erb displays the text '2012-05-10 21:00'" time="0.017968892">
+  </testcase>
+  <testcase name="genres/show.html.erb displays the text '1980' (PENDING)" time="0.002843227">
+    <skipped/>
+  </testcase>
+  <system-out>
+2000-01-01 21:00:00 UTC
+2000-01-01 21:00:00 UTC
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>

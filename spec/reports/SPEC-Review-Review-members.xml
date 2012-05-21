@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Review Review members" tests="1" time="0.211740594" failures="0" errors="0" skipped="0">
+  <testcase name="Review Review members should have 'subject', 'detail', 'movie_id'" time="0.211274122">
+  </testcase>
+  <system-out>
+  </system-out>
+  <system-err>
+  </system-err>
+</testsuite>
