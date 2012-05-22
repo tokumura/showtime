@@ -41,7 +41,8 @@ describe MoviesController do
                       :show_hour=> '21',
                       :show_min=> '00'
                      }
-      response.should redirect_to(controller: "genres", action: "index")
+      #response.should redirect_to(controller: "genres", action: "index")
+      response.should redirect_to(genres_path)
 =begin
 =end
       
