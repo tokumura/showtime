@@ -28,7 +28,7 @@ describe GenresController do
     it "should be successfiul" do
       post 'create', {:name => 'SF'}
       #response.should redirect_to(controller: "movies", action: "index")
-      response.should redirect_to(moveis_path)
+      response.should redirect_to(movies_path)
     end
   end
 
