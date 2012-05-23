@@ -12,6 +12,7 @@ group :test do
   gem "nokogiri", ">= 1.5.2"
   gem "database_cleaner", ">= 0.5.0"
   gem "simplecov", :require => false
+  gem "simplecov-rcov", :require => false
   gem "ci_reporter"
 end
 
