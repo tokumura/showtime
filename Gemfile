@@ -14,8 +14,7 @@ group :test do
   gem "database_cleaner", ">= 0.5.0"
   gem "simplecov", :require => false
   gem "simplecov-rcov", :require => false
-  gem 'heroku-san'
-#  gem "ci_reporter"
+  gem 'heroku_san'
 end
 
 # Use unicorn as the web server
