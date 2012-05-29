@@ -23,8 +23,9 @@ class MoviesController < ApplicationController
       end
     end
     filename = "foo.pdf"
-    report.generate_file("public/docs/#{filename}")
-    send_file("public/docs/#{filename}")
+    #report.generate_file("public/docs/#{filename}")
+    #send_file("public/docs/#{filename}")
+    send_data report.generate, :filename => "thinreports.pdf", :type => 'application/pdf'
   end
 
   def show
