@@ -1,14 +1,34 @@
 # coding: utf-8
 
+require 'thinreports'
+
 class MoviesController < ApplicationController
 
   def index
     @genres = Genre.all
-    @movies = Movie.order("title").page(params[:page]).per(1)
+    @movies = Movie.order("title").page(params[:page]).per(5)
+
+
+
     respond_to do |format|
       format.html # index.html.erb
       format.xml { render :xml => @movie }
     end
+  end
+
+  def download
+    report = ThinReports::Report.new :layout => File.join(Rails.root, 'reports', 'foo.tlf')
+    report.start_new_page
+
+    filename = "foo.pdf"
+    @mvs = Movie.all
+    @mvs.each do |mv|
+      report.page.list(:mv_list) do |list|
+        list.add_row :detail => mv.title
+      end
+    end
+    report.generate_file("public/docs/#{filename}")
+    send_file("public/docs/#{filename}")
   end
 
   def show

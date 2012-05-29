@@ -15,11 +15,12 @@ Genres
 <br/>
 <br/>
 <% @movies.each do |movie| %>
-  <%= movie.title %><br/>
+　<%= movie.title %><br/>
 <% end %>
 <br/>
 <%= paginate @movies %>
 <br/>
+<%= link_to "Download Movie List", movie_download_path(1) %><br/>
 <br/>
-　<%= link_to 'Review', reviews_path %><br/>
+<%= link_to 'Review', reviews_path %><br/>
 

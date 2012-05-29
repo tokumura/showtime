@@ -1,5 +1,7 @@
 Showtime::Application.routes.draw do
-  resources :movies
+  resources :movies do
+    get :download
+  end
   resources :genres
   resources :reviews
   # The priority is based upon order of creation:

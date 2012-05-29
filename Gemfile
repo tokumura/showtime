@@ -7,6 +7,7 @@ gem 'rails', '3.0.10'
 
 gem 'sqlite3'
 gem 'kaminari'
+gem 'thinreports'
 
 group :test do
   gem "rspec-rails", ">= 2.0.0"
