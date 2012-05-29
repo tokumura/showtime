@@ -4,6 +4,7 @@ class MoviesController < ApplicationController
 
   def index
     @genres = Genre.all
+    @movies = Movie.order("title").page(params[:page]).per(1)
     respond_to do |format|
       format.html # index.html.erb
       format.xml { render :xml => @movie }
@@ -59,10 +60,10 @@ class MoviesController < ApplicationController
     )
     respond_to do |format|
       if @movie.save
-        format.html { redirect_to(genres_path) }
+        format.html { redirect_to(movies_path) }
         format.xml  { head :ok }
       else
-        format.html { redirect_to(genres_path) }
+        format.html { redirect_to(movies_path) }
         format.xml  { head :ok }
       end
     end

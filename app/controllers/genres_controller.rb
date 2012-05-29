@@ -1,6 +1,7 @@
 class GenresController < ApplicationController
   def index
-    @genres = Genre.all
+    #@genres = Genre.all
+    @genres = Genre.page(1)
     respond_to do |format|
       format.html # index.html.erb
       format.xml { render :xml => @genre }
@@ -9,9 +10,6 @@ class GenresController < ApplicationController
 
   def show
     @genre = Genre.find(params[:id])
-    #@genre.movies.each do |movie|
-    #  puts movie
-    #end
     respond_to do |format|
       format.html # show.html.erb
       format.xml { render :xml => @genre }

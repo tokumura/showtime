@@ -9,10 +9,16 @@ Welcome to Top Page!
 Genres
 <br/>
 <br/>　
-<%= link_to 'All Movies', movies_path %>　
 <% @genres.each do |genre| %>
   <%= link_to genre.name, genre_path(genre.id) %>　
 <% end %>
+<br/>
+<br/>
+<% @movies.each do |movie| %>
+  <%= movie.title %><br/>
+<% end %>
+<br/>
+<%= paginate @movies %>
 <br/>
 <br/>
 　<%= link_to 'Review', reviews_path %><br/>
