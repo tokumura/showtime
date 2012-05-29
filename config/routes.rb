@@ -1,6 +1,6 @@
 Showtime::Application.routes.draw do
   resources :movies do
-    get :download
+    get :download, :on => :collection
   end
   resources :genres
   resources :reviews
